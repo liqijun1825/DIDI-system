@@ -6,4 +6,5 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
 =======
 # DIDI-system
->>>>>>> de4592598d1b085be2c7a666188d6c437f90c175
+
+
