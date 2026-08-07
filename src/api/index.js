@@ -70,3 +70,18 @@ export const companionList = (params) => {
 export const deleteCompanion = (data) => {
     return request.post('/delete/companion',data)
 }
+
+// 订单列表
+export const adminOrder = (params) => {
+    return request.get('/admin/order',{ params })
+}
+
+// 服务状态完成
+export const updateOrder = (data) => {
+    return request.post('/update/order',data)
+}
+
+// 控制台接口
+export const getControlData = (params={}) => {
+    return request.get('/report', { params })
+}
